@@ -1,0 +1,208 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-top {
+  background-color: rgba(2, 214, 156, 1.0);
+  height: 75px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  border: none !important;
+}
+.App-main {
+  background-color: white;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.App-name {
+  font-family: segoe-ui, "Open Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+  user-select: none;
+  text-decoration: none;
+}
+
+
+.slack-button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.summary {
+  background-color: rgba(2, 214, 156, 0.1);
+  border-left: 5px solid rgba(2, 214, 156, 0.7);
+  padding: 0px 0px 10px 10px
+}
+
+.summary-header {
+  display: inline-block;
+  color: rgba(2, 214, 156, 1.0);
+  padding: 0px;
+  margin: 10px 0px 0px 0px;
+}
+
+.footer {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: 40px 0px;
+}
+
+.footer-link {
+  margin: 0px 12px 12px;
+  color: rgb(102, 102, 102);
+  padding-bottom: 1px;
+  font-family: segoe-ui, "Open Sans", sans-serif;
+  text-decoration: none;
+  transition: background-size 0.2s ease 0s;
+}
+
+.footer-link:hover {
+  color: rgba(2, 214, 156, 1);
+}
+
+.in-line-link {
+  color: rgba(2, 214, 156, 1);
+  font-family: segoe-ui, "Open Sans", sans-serif;
+  text-decoration: none;
+}
+
+.in-line-link:hover {
+  color: rgb(102, 102, 102);
+}
+
+.code {
+    font-family: "IBM Plex Mono";
+    font-size: 16px;
+    font-weight: 400;
+    color:  rgba(2, 214, 156, 1.0);
+    background-color:  rgba(2, 214, 156, 0.1);
+    padding: 2px;
+}
+
+.tutorial {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.gif-container {
+  background-color: rgba(2, 214, 156, 0.1);
+  text-align: center;
+  display: block;
+}
+
+.gif {
+  text-align: center;
+  padding-top:40px;
+  padding-bottom: 40px;
+}
+
+h1 { 
+  font-family: segoe-ui, "Open Sans", sans-serif; 
+  font-size: 30px; 
+  font-style: bold; 
+  font-variant: normal; 
+  font-weight: 700; 
+  line-height: 50px; 
+  color: black;
+} 
+
+h2 { 
+  font-family: segoe-ui, "Open Sans", sans-serif; 
+  font-size: 20px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 900; 
+  line-height: 30px; 
+  color: black;
+} 
+
+h3 { 
+  font-family: segoe-ui, "Open Sans", sans-serif; 
+  font-size: 18px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 900; 
+  line-height: 30px; 
+  color: black;
+} 
+
+p1 { 
+  font-family: segoe-ui, "Open Sans", sans-serif; 
+  font-size: 18px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 500; 
+  line-height: 20px; 
+  color: black;
+} 
+
+p {
+  font-family: segoe-ui, "Open Sans", sans-serif; 
+  font-size: 15px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 500; 
+  line-height: 20px; 
+  color: black;
+}
+
+li {
+  font-family: segoe-ui,"Open Sans", sans-serif; 
+  font-size: 15px; 
+  font-style: normal; 
+  font-variant: normal; 
+  font-weight: 500; 
+  line-height: 20px; 
+  color: black;
+  margin: 5px
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+div {
+  background-color: white;
+}
+
+footer {
+  display:block;
+  margin: 40px 0px 0px;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+a {
+  color: rgba(2, 214, 156, 1);
+  font-family: segoe-ui, "Open Sans", sans-serif;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(102, 102, 102);
+}
