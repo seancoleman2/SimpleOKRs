@@ -2,7 +2,7 @@
 A lightweight and free slack app for OKR Management.
 
 ### Usage
-[simple-okrs.com/usage](www.simple-okrs.com/usage)
+[simple-okrs.com/usage](https://simple-okrs.com/)
 
 ### BE
-The backend for Simple OKRs is happily built in [Dark](www.darklang.com). 
+The backend for Simple OKRs is happily built in [Dark](https://darklang.com/). 
