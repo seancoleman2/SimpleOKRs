@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import UsageTutorial from './UsageTutorial';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import './App.css';
 
