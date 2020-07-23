@@ -25,7 +25,7 @@ class App extends Component {
       <Router history={history}>
         <div className="App">
           <div className= "App-top">
-            <Link className="App-name" to={'/'}> Simple OKRs </Link>
+            <Link className="App-name" to={'/'}> Slash OKRs </Link>
           </div>
           <div className="App-main">
             <Switch>
