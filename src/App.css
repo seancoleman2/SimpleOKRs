@@ -19,9 +19,17 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding-left: 20px;
   border: none !important;
 }
+
+.App-top-link {
+  background-color: rgba(2, 214, 156, 1.0);
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
 .App-main {
   background-color: white;
   width: 750px;
@@ -32,11 +40,23 @@
 
 .App-name {
   font-family: segoe-ui, "Open Sans", sans-serif;
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 800;
   color: white;
   user-select: none;
   text-decoration: none;
+}
+
+.product-link {
+  font-family: segoe-ui, "Open Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+  user-select: none;
+  text-decoration: none;
+  float:right;
+  padding-top: 14px;
+  padding-right: 5px;
 }
 
 .slack-button {
@@ -117,7 +137,7 @@
 
 h1 { 
   font-family: segoe-ui, "Open Sans", sans-serif; 
-  font-size: 30px; 
+  font-size: 26px; 
   font-style: bold; 
   font-variant: normal; 
   font-weight: 700; 

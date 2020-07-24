@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class UsageTutorial extends Component {
+class ProductTutorial extends Component {
     render() {
       return (
         <div >
-          <h1> Usage </h1>
+          <h1> Product </h1>
           <div> 
             <div className="summary">
               <p className="summary-header">Summary</p>
@@ -41,4 +41,4 @@ class UsageTutorial extends Component {
     }
 }
 
-export default UsageTutorial;
+export default ProductTutorial;
