@@ -1,7 +1,7 @@
-# SimpleOKRs
+# SlashOKRs
 A lightweight and free slack app for OKR Management.
 
-[simple-okrs.com](https://simple-okrs.com/)
+[slashokrs.com](https://slashokrs.com/)
 
 ### BE
 The backend for Simple OKRs is happily built in [Dark](https://darklang.com/). 
