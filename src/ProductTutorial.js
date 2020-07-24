@@ -13,7 +13,7 @@ class ProductTutorial extends Component {
                 <li> Add a new OKR - <code className="code"> /okr add </code></li>
                 <li> View, manage, and share your OKRs - <code className="code"> /okr list </code></li>
                 <li> See a tutorial at any time - <code className="code"> /okr help </code> </li>
-                <li> Simple OKRs will remind you to check-in on your OKRs every two weeks</li>  
+                <li> The Slash OKRs bot will remind you to check-in on your OKRs every two weeks</li>  
               </ul>
             </div>
             <h3>Add new OKRs</h3>
@@ -34,7 +34,7 @@ class ProductTutorial extends Component {
                 <img className="gif" src="https://media.giphy.com/media/ViOIBcqXdbTtyILgzs/giphy.gif"></img>
               </div>
             <h3>Slash OKRs will keep you on track</h3>
-            <p> You will hear from Simple OKRs every couple of weeks to remind you to report progress on your OKRs. With progress reports, you will be able to track your progress and achieve your goals!</p>
+            <p> You will hear from the Slash OKRs bot every couple of weeks to remind you to report progress on your OKRs. With progress reports, you will be able to track your progress and achieve your goals!</p>
           </div>
         </div>
       )
